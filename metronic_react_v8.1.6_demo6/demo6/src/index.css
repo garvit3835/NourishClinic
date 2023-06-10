@@ -1,0 +1,42 @@
+.react-calendar {
+  width: 880px !important;
+}
+
+.react-calendar__month-view__days__day {
+  height: 110px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #fff;
+  color: #222 !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  overflow: visible !important;
+}
+
+.react-calendar__tile--active{
+  background-color: #fff !important;
+}
+
+.draggable-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.draggable-row {
+  transition: background-color 0.2s ease;
+}
+
+.dragging {
+  background-color: lightblue;
+}
+
+.draggable-row td.first-column {
+  width: 12%; /* Set the desired width for the first column */
+}
+.draggable-row td.third-column {
+  width: 8%; /* Set the desired width for the first column */
+}
+
+.draggable-row td:not(.first-column) {
+  width: 80%; /* Set the desired width for the remaining columns */
+}
